@@ -50,6 +50,9 @@ export const Column2 = styled.div`
   padding: 0 15px;
   grid-area: col2;
   
+  @media screen and (max-width: 480px) {
+    height: 1300px
+  }
 `
 
 export const TextWrapper = styled.div`
@@ -80,12 +83,16 @@ export const Heading = styled.h1`
   }
 `
 
-export const Subtitle = styled.p`
+export const TextBody = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
+
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
+  }
 `
 
 export const BtnWrap = styled.div`
@@ -103,5 +110,9 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  }
 `
 

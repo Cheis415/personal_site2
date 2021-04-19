@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
-import AboutSection from '../aboutSection';
-import { homeObjOne } from '../aboutSection/Data';
+import AboutSection from '../AboutSection';
+import { homeObjOne } from '../AboutSection/Data';
+import Contact from '../Contact';
 import LandingSection from '../LandingSection';
+
 import Navbar from '../Navbar'
-import Sidebar from '../sidebar'
+import Portfolio from '../Portfolio';
+import Sidebar from '../Sidebar'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +20,8 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <LandingSection />
       <AboutSection {...homeObjOne} />
+      <Portfolio />
+      <Contact />
     </>
   )
 }

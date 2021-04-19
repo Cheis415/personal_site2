@@ -38,10 +38,10 @@ export const SidebarMenu = styled.ul`
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 80px);
+  grid-template-rows: repeat(6, 80px);
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(6, 60px);
   }
 `
 export const ExternalLinkMenu = styled.ul`
@@ -59,7 +59,7 @@ export const LinkA = styled.a`
   align-self: center;
 
   &:hover {
-    color: #01bf71;
+    color: #00DAE8;
     transform: scale(1.2);
     transition: 0.2s ease-in-out;
   }
@@ -75,7 +75,7 @@ export const SidebarLink = styled(LinkS)`
   cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #00DAE8;
     transform: scale(1.2);
     transition: 0.2s ease-in-out;
   }

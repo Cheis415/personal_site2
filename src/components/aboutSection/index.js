@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
+import Languages from '../Languages';
 import {
   AboutContainer,
   AboutWrapper,
@@ -8,7 +9,7 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
+  TextBody,
   BtnWrap,
   Column2,
   ImgWrap,
@@ -24,9 +25,10 @@ const AboutSection = ({
   headline,
   darkText,
   description,
+  description2,
   buttonLabel,
   img,
-  alt
+  alt, 
 }) => {
   return (
     <>
@@ -37,12 +39,13 @@ const AboutSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <TextBody darkText={darkText}>{description}</TextBody>
+                <TextBody darkText={darkText}>{description2}</TextBody>
                 <BtnWrap>
                   <Button 
-                  to="portfolio"
-                  primary='true'
-                  dark='true'
+                  to='projects'
+                  primary="true"
+                  dark="false"
                   >{buttonLabel}</Button>
                 </BtnWrap>
               </TextWrapper>
@@ -55,6 +58,7 @@ const AboutSection = ({
           </AboutRow>
         </AboutWrapper>
       </AboutContainer>
+      <Languages />
     </>
   )
 }

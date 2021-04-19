@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Video from "../../videos/video.mp4";
 import { Button } from "../ButtonElement"
-import profilePic from "../../images/IMG_1041.png"
+import profilePic from "../../images/DSC00255.jpeg"
 import {
   LandingConatiner,
   LandingBg,
@@ -23,7 +23,7 @@ const LandingSection = () => {
   }
   return (
     <>
-      <LandingConatiner>
+      <LandingConatiner id='home'>
         <LandingBg>
           <VideoBg autoPlay loop muted src={Video} type='video/mp4'></VideoBg>
         </LandingBg>
