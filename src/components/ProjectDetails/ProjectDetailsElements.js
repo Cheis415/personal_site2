@@ -8,6 +8,10 @@ export const DetailsContainer = styled.div`
     padding: 100px 0;
   }
 
+  @media screen and (min-width: 768px) {
+    height: 1300px;
+  }
+
 `
 
 export const DetailsWrapper = styled.div`
@@ -101,6 +105,7 @@ export const textBody = styled.p`
 
   @media screen and (min-width: 768px) {
     font-size: 24px;
+    line-height: 30px;
   }
 `
 
