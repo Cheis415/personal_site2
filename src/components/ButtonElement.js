@@ -23,6 +23,7 @@ export const Button = styled(Link)`
   }
 `
 export const ButtonR = styled(LinkR)`
+  margin: 0 auto;
   border-radius: 50px;
   background: ${({primary}) => (primary ? '#00DAE8' : '#010606')};
   white-space: no-wrap;

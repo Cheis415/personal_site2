@@ -34,6 +34,7 @@ export const ContactContainer = styled.div`
   height: 100vh;
   max-height: 1400px;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
