@@ -71,7 +71,7 @@ export const TopLine = styled.p`
   text-transform: uppercase;
   margin-bottom: 16px;
   
-  @media screen and (max-width: 1120px) {
+  @media screen and (min-width: 1120px) {
     font-size: 24px;
   }
 `
@@ -98,7 +98,7 @@ export const TextBody = styled.p`
     font-size: 12px;
   }
 
-  @media screen and (max-width: 1120px) {
+  @media screen and (min-width: 768px) {
     font-size: 18px;
   }
 `
@@ -111,7 +111,10 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
-
+  
+  @media screen and (min-width: 768px) {
+    max-width: 40%;
+  }
 `
 
 export const Img = styled.img`
