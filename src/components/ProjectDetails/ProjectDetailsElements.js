@@ -104,7 +104,7 @@ export const textBody = styled.p`
   }
 
   @media screen and (min-width: 768px) {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 30px;
     margin-bottom: 35px;
     margin-right: 35px;
