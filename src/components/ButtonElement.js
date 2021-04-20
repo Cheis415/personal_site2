@@ -73,7 +73,7 @@ export const SubmitButton = styled.input`
   border-radius: 50px;
   background: ${({primary}) => (primary ? '#00DAE8' : '#010606')};
   white-space: no-wrap;
-  padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
+  padding: '12px 30px';
   color: ${({dark}) => (dark ? '#010606' : '#fff')};
   font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
   outline: none;
