@@ -46,7 +46,7 @@ export const LanguageRow = styled.div`
         : `'col2 col2' 'col1 col1'`)};
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
       height: 1400px;
       grid-template-areas: ${({imgStart}) => (imgStart 
         ? `'col2' 'col1'` 

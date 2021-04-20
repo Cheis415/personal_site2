@@ -7,7 +7,7 @@ export const LandingConatiner = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 1120px;
+  height: 960px;
   position: relative;
   z-index: 1;
 
@@ -28,6 +28,10 @@ export const LandingConatiner = styled.div`
       transparent
       100%);
     z-index: 2;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 1300px;
   }
 `
 
