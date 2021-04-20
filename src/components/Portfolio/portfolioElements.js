@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
-  height: 100vh;
-  max-height: 1400px;
+  height: 1120px;
   display: flex;
   flex-direction: column;
   justify-content: center;

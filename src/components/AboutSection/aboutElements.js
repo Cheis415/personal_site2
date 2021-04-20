@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   color: #fff;
-  height: 100vh;
-  max-height: 1400px;
+  height: 1120px;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
@@ -15,7 +14,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 900px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -74,7 +73,6 @@ export const TopLine = styled.p`
   
   @media screen and (max-width: 1120px) {
     font-size: 24px;
-    padding: 100px 0;
   }
 `
 
@@ -102,7 +100,6 @@ export const TextBody = styled.p`
 
   @media screen and (max-width: 1120px) {
     font-size: 18px;
-    padding: 100px 0;
   }
 `
 

@@ -7,8 +7,7 @@ export const LandingConatiner = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 100vh;
-  max-height: 1400px;
+  height: 1120px;
   position: relative;
   z-index: 1;
 
