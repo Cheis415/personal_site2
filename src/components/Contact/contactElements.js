@@ -82,5 +82,5 @@ export const ContactBody = styled.textarea`
 
 export const ContactForm = styled.form`
   align-items: center;
-  
+  height: 500px
 `
