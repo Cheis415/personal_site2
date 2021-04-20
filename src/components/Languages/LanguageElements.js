@@ -3,6 +3,12 @@ import styled from 'styled-components';
 export const LanguagesContainer = styled.div`
   background-color: #010606;
 
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 0;
+    height: 1300px;
+  }
+
   @media screen and (max-width: 480px) {
     height: 1300px;
   }
