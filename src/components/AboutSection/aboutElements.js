@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   color: #fff;
+  height: 100vh;
+  max-height: 1400px;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {

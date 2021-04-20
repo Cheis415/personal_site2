@@ -29,7 +29,8 @@ export const StyledContainer = styled(ToastContainer).attrs({
 `;
 
 export const ContactContainer = styled.div`
-  height: 800px;
+  height: 100vh;
+  max-height: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
