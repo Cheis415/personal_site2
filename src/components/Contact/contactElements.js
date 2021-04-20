@@ -81,6 +81,5 @@ export const ContactBody = styled.textarea`
 
 export const ContactForm = styled.form`
   align-items: center;
-  text-align: center;
   
 `
