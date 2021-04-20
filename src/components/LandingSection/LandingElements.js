@@ -31,7 +31,7 @@ export const LandingConatiner = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    height: 1300px;
+    height: 1400px;
   }
 `
 
