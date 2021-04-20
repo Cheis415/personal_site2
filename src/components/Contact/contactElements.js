@@ -7,6 +7,8 @@ export const StyledContainer = styled(ToastContainer).attrs({
 })`
   .Toastify__toast-container {
     background: #000;
+    display: flex;
+    margin-top: 20px;
     border: 1px solid #fff;
   }
   .Toastify__toast {

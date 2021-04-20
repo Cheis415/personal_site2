@@ -67,6 +67,7 @@ export const SubmitButton = styled.input`
   }
   `
   export const ButtonReg = styled.button`
+  margin: 0 auto;
   border-radius: 50px;
   background: ${({primary}) => (primary ? '#00DAE8' : '#010606')};
   white-space: no-wrap;
