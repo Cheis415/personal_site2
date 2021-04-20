@@ -47,6 +47,7 @@ export const ButtonR = styled(LinkR)`
 `
 
 export const SubmitButton = styled.input`
+  margin: 0 auto;
   border-radius: 50px;
   background: ${({primary}) => (primary ? '#00DAE8' : '#010606')};
   white-space: no-wrap;
@@ -56,7 +57,7 @@ export const SubmitButton = styled.input`
   outline: none;
   border: none;
   cursor: pointer;
-  
+  display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
