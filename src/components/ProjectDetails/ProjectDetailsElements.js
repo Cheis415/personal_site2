@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const DetailsContainer = styled.div`
   color: #fff;
-  height: 100vh;
-  max-height: 1400px;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
@@ -69,6 +67,10 @@ export const TopLine = styled.p`
   text-transform: uppercase;
   margin-bottom: 16px;
 
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+
 `
 
 export const Heading = styled.h1`
@@ -80,9 +82,13 @@ export const Heading = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+  }
 `
 
-export const Subtitle = styled.p`
+export const textBody = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 14px;
@@ -91,6 +97,10 @@ export const Subtitle = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 12px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
   }
 `
 

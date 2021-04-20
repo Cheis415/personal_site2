@@ -9,7 +9,7 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
+  textBody,
   BtnWrap,
   Column2,
   ImgWrap,
@@ -45,7 +45,7 @@ const goBack = () => {
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <textBody darkText={darkText}>{description}</textBody>
                 <BtnWrap>
                   <ButtonReg 
                   onClick={goBack}
