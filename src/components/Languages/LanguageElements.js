@@ -104,6 +104,7 @@ export const LanguageTitle = styled.p`
 
 export const LanguageP = styled.p`
   max-width: 440px;
+  line-height: 20px;
   margin-bottom: 5px;
   font-size: 14px;
   color: #fff;
