@@ -8,6 +8,10 @@ export const PortfolioContainer = styled.div`
   align-items: center;
   background: #fff;
 
+  @media screen and (max-width: 1120px) {
+    height: 1300px;
+  }
+
   @media screen and (max-width: 768px) {
     height: 1200px;
   }
