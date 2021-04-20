@@ -99,6 +99,11 @@ export const TextBody = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 12px;
   }
+
+  @media screen and (max-width: 1120px) {
+    font-size: 18px;
+    padding: 100px 0;
+  }
 `
 
 export const BtnWrap = styled.div`
