@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LanguagesContainer = styled.div`
   background-color: #010606;
-  height: 1120px;
+
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
