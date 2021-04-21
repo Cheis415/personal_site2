@@ -7,7 +7,7 @@ export const LandingConatiner = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 960px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 
@@ -30,9 +30,7 @@ export const LandingConatiner = styled.div`
     z-index: 2;
   }
 
-  @media screen and (min-width: 1200px) {
-    height: 100vh;
-  }
+ 
 `
 
 export const LandingBg = styled.div`
