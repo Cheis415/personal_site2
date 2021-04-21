@@ -1,5 +1,169 @@
 import styled from 'styled-components';
 
+import {
+  SiJavascript,
+  SiStyledComponents,
+  SiReact,
+  SiRedux,
+  SiTypescript,
+  SiHtml5,
+  SiJinja,
+  SiPython,
+  SiNodeDotJs,
+  SiCss3,
+  SiSass,
+  SiJquery,
+  SiFlask,
+  SiJest,
+  SiMysql,
+  SiPostgresql,
+  SiGithub,
+  SiGit,
+
+} from "react-icons/si"
+
+export const JsIcon = styled(SiJavascript)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const StyledIcon = styled(SiStyledComponents)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const ReactIcon = styled(SiReact)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const ReduxIcon = styled(SiRedux)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+export const TsIcon = styled(SiTypescript)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const HtmlIcon = styled(SiHtml5)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const JinjaIcon = styled(SiJinja)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const PythonIcon = styled(SiPython)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const NodeIcon = styled(SiNodeDotJs)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const CssIcon = styled(SiCss3)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+export const SassIcon = styled(SiSass)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const JqueryIcon = styled(SiJquery)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const FlaskIcon = styled(SiFlask)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const JestIcon = styled(SiJest)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const MysqlIcon = styled(SiMysql)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const PostgreIcon = styled(SiPostgresql)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const GithubIcon = styled(SiGithub)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
+export const GitIcon = styled(SiGit)`
+  font-size: 2em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3em;
+  }
+`
+
 export const LanguagesContainer = styled.div`
   background-color: #010606;
 

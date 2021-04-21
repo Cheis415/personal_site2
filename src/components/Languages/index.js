@@ -1,28 +1,25 @@
 import React from 'react';
-import {
-  SiJavascript,
-  SiStyledComponents,
-  SiReact,
-  SiRedux,
-  SiTypescript,
-  SiHtml5,
-  SiJinja,
-  SiPython,
-  SiNodeDotJs,
-  SiCss3,
-  SiSass,
-  SiJquery,
-  SiFlask,
-  SiJest,
-  SiMysql,
-  SiPostgresql,
-  SiGithub,
-  SiGit,
-
-} from "react-icons/si"
 
 import {
   LanguagesContainer,
+  JsIcon,
+  SassIcon,
+  JqueryIcon,
+  FlaskIcon,
+  JestIcon,
+  MysqlIcon,
+  PostgreIcon,
+  GithubIcon,
+  GitIcon,
+  ReactIcon,
+  ReduxIcon,
+  StyledIcon,
+  TsIcon,
+  PythonIcon,
+  HtmlIcon,
+  CssIcon,
+  NodeIcon,
+  JinjaIcon,
   LanguageWrap,
   LanguageRow,
   LanguageTitle,
@@ -42,75 +39,75 @@ const Languages = () => {
           <LanguageRow>
             <Column1>
           <LanguageContainer>
-            <SiJavascript size="2em" color="#00DAE8"/>
+            <JsIcon  color="#00DAE8"/>
             <LanguageTitle >Javscript</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiReact size="2em" color="#00DAE8"/>
+            <ReactIcon color="#00DAE8"/>
             <LanguageTitle >React</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiHtml5 size="2em" color="#00DAE8"/>
+            <HtmlIcon color="#00DAE8"/>
             <LanguageTitle >HTML</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiCss3 size="2em" color="#00DAE8"/>
+            <CssIcon color="#00DAE8"/>
             <LanguageTitle >CSS</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiStyledComponents size="2em" color="#00DAE8"/>
+            <StyledIcon color="#00DAE8"/>
             <LanguageTitle >Styled Components</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiSass size="2em" color="#00DAE8"/>
+            <SassIcon color="#00DAE8"/>
             <LanguageTitle >SASS</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiJquery size="2em" color="#00DAE8"/>
+            <JqueryIcon color="#00DAE8"/>
             <LanguageTitle >JQuery</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiRedux size="2em" color="#00DAE8"/>
+            <ReduxIcon color="#00DAE8"/>
             <LanguageTitle >Redux</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiTypescript size="2em" color="#00DAE8"/>
+            <TsIcon color="#00DAE8"/>
             <LanguageTitle >TypeScript</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiJest size="2em" color="#00DAE8"/>
+            <JestIcon color="#00DAE8"/>
             <LanguageTitle >Jest</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiJinja size="2em" color="#00DAE8"/>
+            <JinjaIcon color="#00DAE8"/>
             <LanguageTitle >Jinja</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiPython size="2em" color="#00DAE8"/>
+            <PythonIcon color="#00DAE8"/>
             <LanguageTitle >Python</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiFlask size="2em" color="#00DAE8"/>
+            <FlaskIcon color="#00DAE8"/>
             <LanguageTitle >FLask</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiNodeDotJs size="2em" color="#00DAE8"/>
+            <NodeIcon color="#00DAE8"/>
             <LanguageTitle >Node.Js</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiMysql size="2em" color="#00DAE8"/>
+            <MysqlIcon color="#00DAE8"/>
             <LanguageTitle >MySql</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiPostgresql size="2em" color="#00DAE8"/>
+            <PostgreIcon color="#00DAE8"/>
             <LanguageTitle >PostgreSQL</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiGithub size="2em" color="#00DAE8"/>
+            <GithubIcon color="#00DAE8"/>
             <LanguageTitle >Github</LanguageTitle>
           </LanguageContainer>
           <LanguageContainer>
-            <SiGit size="2em" color="#00DAE8"/>
+            <GitIcon color="#00DAE8"/>
             <LanguageTitle >Git</LanguageTitle>
           </LanguageContainer>
           </Column1>
