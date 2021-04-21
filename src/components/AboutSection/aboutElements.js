@@ -71,6 +71,7 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
   
   @media screen and (min-width: 1120px) {
+    margin-top: 20px;
     font-size: 24px;
   }
 `
