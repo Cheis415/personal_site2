@@ -8,6 +8,7 @@ import Navbar from '../Navbar'
 import Portfolio from '../Portfolio';
 import Sidebar from '../Sidebar'
 
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
