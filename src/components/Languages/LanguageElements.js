@@ -106,4 +106,9 @@ export const LanguageP = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 12px;
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
 `
