@@ -9,7 +9,8 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  textBody,
+  TextBody,
+  Link,
   BtnWrap,
   Column2,
   ImgWrap,
@@ -28,6 +29,7 @@ const ProjectDetails = ({
   buttonLabel,
   img,
   alt,
+  link,
   primary,
   dark, 
 }) => {
@@ -45,9 +47,16 @@ const goBack = () => {
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <textBody darkText={darkText}>{description}</textBody>
+                <TextBody darkText={darkText}>{description}</TextBody>
+                
                 <BtnWrap>
-                  <ButtonReg 
+                <Link target='_blank' rel="noreferrer" href={link}>
+                <ButtonReg 
+                  primary="true"
+                  dark="false"
+                  >Link</ButtonReg>
+                </Link>
+                  <ButtonReg
                   onClick={goBack}
                   primary="true"
                   dark="false"

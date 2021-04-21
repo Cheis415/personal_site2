@@ -76,6 +76,10 @@ export const TopLine = styled.p`
   }
 
 `
+export const Link = styled.a`
+  text-decoration: none;
+
+`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
@@ -92,7 +96,7 @@ export const Heading = styled.h1`
   }
 `
 
-export const textBody = styled.p`
+export const TextBody = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 14px;
@@ -113,7 +117,8 @@ export const textBody = styled.p`
 
 export const BtnWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
 `
 
 export const ImgWrap = styled.div`

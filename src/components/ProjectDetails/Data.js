@@ -10,8 +10,9 @@ export const projectObj = {
   process of filing wage disputes for lawyers and their clients, saving them time and money. I learned what it takes
   to work for a company day-to-day as a developer, merging several pull requests, collaborating with a diverse team,
   and working in a Git workflow. I particulary loved working on this project, using  my skills to be of service
-  to people in need. The website is still under construction, so I will have a link as soon as it's live. In the mean time 
-  click on the title in the top right corner to see their Linkedin.`,
+  to people in need. The website is still under construction, so I will have a link as soon as it's live. In the mean time feel
+  free to check out their Linkedin.`,
+  link: "https://www.linkedin.com/company/clevercounsel-llc/",
   buttonLabel: 'Back',
   path: '/',
   imgStart: false,
@@ -31,8 +32,9 @@ export const projectObj2 = {
   headline: "Speaker Box",
   description: `Not your usual twitter clone. This is a pure python app, built with jinja templates. This is fully functional with the ability to
   like or dislike a post, add friends, write posts and comments. We also put in a spotify widget so a user can bump their speakers while browsing. A postgreSQL database handles all the data
-  storage. Click on the title in top right corner to see a demo!`,
+  storage. Click the link to see a demo!`,
   buttonLabel: 'Back',
+  link: "https://united-twitter-clone.herokuapp.com/",
   path: '/',
   imgStart: false,
   img: require('../../images/svg-5.svg').default,
@@ -52,9 +54,10 @@ export const projectObj3 = {
   description: `MicroBlog was built with React using Redux for state management. This is a purely 
   front-end App. A user can post and delete a blog post, as well as like other blogs. I also used 
   history.push to save blog posts to local storage and to leave likes. 
-  I enjoyed the challenge of writing a front-end only app, but having it feel fully featured. Click on the title in 
-  top right corner to see a demo! `,
+  I enjoyed the challenge of writing a front-end only app, but having it feel fully featured. 
+  Click the link to see a demo! `,
   buttonLabel: 'Back',
+  link: "https://awesome-visvesvaraya-5b1e74.netlify.app",
   path: '/portfolio',
   imgStart: false,
   img: require('../../images/svg-6.svg').default,
