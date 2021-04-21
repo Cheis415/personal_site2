@@ -98,7 +98,8 @@ export const TextBody = styled.p`
   }
 
   @media screen and (min-width: 768px) {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 24px;
   }
 `
 
