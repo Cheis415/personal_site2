@@ -221,6 +221,10 @@ export const Column1 = styled.div`
   max-width: 440px;
   flex-wrap: wrap;
 
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+  }
+
 `
 
 export const Column2 = styled.div`
@@ -232,6 +236,10 @@ export const Column2 = styled.div`
   flex-wrap: wrap;
   padding: 0 15px;
   grid-area: col2;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+  }
   
 `
 
