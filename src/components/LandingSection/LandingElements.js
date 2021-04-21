@@ -30,8 +30,8 @@ export const LandingConatiner = styled.div`
     z-index: 2;
   }
 
-  @media screen and (min-width: 768px) {
-    height: 1400px;
+  @media screen and (min-width: 1200px) {
+    height: 100vh;
   }
 `
 
