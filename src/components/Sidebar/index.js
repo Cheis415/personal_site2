@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaRegAddressCard, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Resume from '../../images/Heisler-Resume.pdf';
 import {
   SidebarContainer,
   Icon,
@@ -8,9 +9,8 @@ import {
   SidebarMenu,
   SidebarLink,
   ExternalLinkMenu,
-  LinkA,
-  Mailto
-} from "./SidebarElements"
+  LinkA
+} from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
 
@@ -39,11 +39,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
           </SidebarMenu>
           <ExternalLinkMenu>
-            <LinkA href="https://github.com/Cheis415"><FaGithub /></LinkA>
-            <Mailto email="chadheisler5@gmail.com" subject="Hello & Welcome" body="Hello world!">
-              <FaEnvelope />
-            </Mailto>
-            <LinkA href="https://www.linkedin.com/in/chad-heisler/"><FaLinkedin /></LinkA>
+            <LinkA target="_blank" href="https://github.com/Cheis415"><FaGithub /></LinkA>
+            <LinkA target="_blank" href={Resume}><FaRegAddressCard /></LinkA>
+            <LinkA target="_blank" href="https://www.linkedin.com/in/chad-heisler/"><FaLinkedin /></LinkA>
           </ExternalLinkMenu>
         </SidebarWrapper>
       </SidebarContainer>
