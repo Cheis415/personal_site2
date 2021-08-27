@@ -18,10 +18,10 @@ export const PortfolioContainer = styled.div`
 `;
 
 export const PortfolioWrap = styled.div`
-	max-width: 1000px;
+	max-width: 1300px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: center;
 	grid-gap: 24px;
 	padding: 25px;
@@ -31,6 +31,12 @@ export const PortfolioWrap = styled.div`
 	}
 
 	@media screen and (max-width: 768px) {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 16px
+		padding: 0 20px;
+	}
+
+	@media screen and (max-width: 500px) {
 		grid-template-columns: 1fr;
 		grid-gap: 16px
 		padding: 0 20px;

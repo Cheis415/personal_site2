@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Project1 from '../../images/CounselLogin.png';
 import Project2 from '../../images/speakerBox.png';
 import Project3 from '../../images/MicroBlog.png';
+import Project4 from '../../images/HeislerRestaurant.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -39,6 +40,11 @@ const Portfolio = () => {
 						<ProjectPic src={Project3} />
 						<ProjectH2>Micro Blog</ProjectH2>
 						<ButtonR to="/details3">Details</ButtonR>
+					</PortfolioCard>
+					<PortfolioCard data-aos="zoom-in">
+						<ProjectPic src={Project4} />
+						<ProjectH2>Restaurants</ProjectH2>
+						<ButtonR to="/details4">Details</ButtonR>
 					</PortfolioCard>
 				</PortfolioWrap>
 			</PortfolioContainer>

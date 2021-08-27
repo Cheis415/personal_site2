@@ -15,7 +15,7 @@ export const projectObj = {
 	buttonLabel: 'Back',
 	path: '/',
 	imgStart: false,
-	img: require('../../images/CounselLogin.png').default,
+	img: require('../../images/svg-7.svg').default,
 	alt: 'look in the mirror',
 	dark: true,
 	primary: true,
@@ -60,6 +60,28 @@ export const projectObj3 = {
 	path: '/portfolio',
 	imgStart: false,
 	img: require('../../images/svg-6.svg').default,
+	alt: 'look in the mirror',
+	dark: true,
+	primary: true,
+	darkText: false,
+};
+
+export const projectObj4 = {
+	id: 'details4',
+	LightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Lets Network!',
+	headline: "Heisler's Restaurants",
+	description: `Heisler's Restaurants is just a fun little project that I made with React and Sass. It has a really 
+  cool animation on the hamburger menu, along with some other features. It was made to be a mock restaurant website
+  but also a way for people to connect with me at some of my favorite restaurants in San Francisco. So follow the 
+  links in the Modals and connect with me and lets talk with our mouths full.`,
+	buttonLabel: 'Back',
+	link: 'https://jolly-keller-229a5c.netlify.app/',
+	path: '/portfolio',
+	imgStart: false,
+	img: require('../../images/svg-3.svg').default,
 	alt: 'look in the mirror',
 	dark: true,
 	primary: true,
