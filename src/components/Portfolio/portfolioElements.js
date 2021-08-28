@@ -9,11 +9,11 @@ export const PortfolioContainer = styled.div`
 	background: #fff;
 
 	@media screen and (max-width: 768px) {
-		height: 1200px;
+		height: 1100px;
 	}
 
 	@media screen and (max-width: 480px) {
-		height: 1300px;
+		height: 1200px;
 	}
 `;
 
@@ -64,14 +64,14 @@ export const PortfolioCard = styled.div`
 `;
 
 export const ProjectPic = styled.img`
-	height: 160px;
-	width: 200px;
+	height: 140px;
+	width: 100%;
 	margin-bottom: 10px;
 	border-radius: 5px;
 
 	@media screen and (max-width: 480px) {
 		height: 120px;
-		width: 160px;
+		width: 100%;
 	}
 `;
 
