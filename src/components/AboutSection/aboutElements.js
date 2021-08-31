@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-	height: max-content;
+	height: 100vh;
 	color: #fff;
 	background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
@@ -56,7 +56,7 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
 	max-width: 540px;
-	padding-top: 0;
+	padding-top: 20px;
 	padding-bottom: 60px;
 `;
 export const TopLine = styled.p`
@@ -68,9 +68,13 @@ export const TopLine = styled.p`
 	text-transform: uppercase;
 	margin-bottom: 16px;
 
-	@media screen and (min-width: 1120px) {
-		margin-top: 50px;
-		font-size: 24px;
+	// @media screen and (min-width: 1120px) {
+	// 	margin-top: 50px;
+	// 	font-size: 24px;
+	// }
+	@media screen and (max-width: 1440px) {
+		font-size: 14px;
+		margin-bottom: 8px;
 	}
 `;
 
@@ -82,6 +86,9 @@ export const Heading = styled.h1`
 
 	@media screen and (max-width: 480px) {
 		font-size: 32px;
+	}
+	@media screen and (max-width: 1440px) {
+		font-size: 40px;
 	}
 `;
 
@@ -98,6 +105,10 @@ export const TextBody = styled.p`
 	@media screen and (min-width: 768px) {
 		font-size: 20px;
 		line-height: 24px;
+	}
+	@media screen and (max-width: 1440px) {
+		font-size: 16px;
+		line-height: 20px;
 	}
 `;
 

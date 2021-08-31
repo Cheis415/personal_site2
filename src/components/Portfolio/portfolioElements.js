@@ -52,7 +52,7 @@ export const PortfolioCard = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 	border-radius: 10px;
-	max-height: 340px;
+	max-height: 320px;
 	padding: 5px;
 
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -78,8 +78,8 @@ export const ProjectPic = styled.img`
 export const PortfolioH1 = styled.h1`
 	font-size: 2.5rem;
 	color: #000;
-	margin-top: 64px;
-	margin-bottom: 64px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 
 	@media screen and (max-width: 480px) {
 		font-size: 2rem;

@@ -165,10 +165,10 @@ export const GitIcon = styled(SiGit)`
 
 export const LanguagesContainer = styled.div`
 	background-color: #010606;
-	height: max-content;
+	height: 100vh;
 
 	@media screen and (min-width: 768px) {
-		padding: 100px 0;
+		padding: 10px 0;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -184,6 +184,7 @@ export const LanguageWrap = styled.div`
 	z-index: 1;
 	height: fit-content;
 	width: 100%;
+
 	max-width: 1100px;
 	margin-right: auto;
 	margin-left: auto;
@@ -193,9 +194,10 @@ export const LanguageWrap = styled.div`
 
 export const LanguageRow = styled.div`
 	display: grid;
+	align-items: center;
 	height: fit-content;
 	grid-auto-comlumns: minmax(auto, 1fr);
-	align-items: center;
+
 	grid-template-areas: ${({ imgStart }) =>
 		imgStart ? `'col2 col1'` : `'col1 col2'`};
 
@@ -263,6 +265,10 @@ export const LanguageH1 = styled.h1`
 	@media screen and (min-width: 768px) {
 		margin-top: 30px;
 	}
+	@media screen and (max-width: 1440px) {
+		font-size: 40px;
+		margin: 18px;
+	}
 `;
 export const LanguageTitle = styled.p`
 	color: #fff;
@@ -283,5 +289,9 @@ export const LanguageP = styled.p`
 	@media screen and (min-width: 768px) {
 		font-size: 20px;
 		line-height: 24px;
+	}
+	@media screen and (max-width: 1440px) {
+		font-size: 16px;
+		line-height: 18px;
 	}
 `;
