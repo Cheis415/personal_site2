@@ -194,6 +194,7 @@ export const LanguageWrap = styled.div`
 
 export const LanguageRow = styled.div`
 	display: grid;
+	margin-top: 80px;
 	align-items: center;
 	height: fit-content;
 	grid-auto-comlumns: minmax(auto, 1fr);

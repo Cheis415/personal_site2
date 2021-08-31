@@ -27,6 +27,7 @@ export const AboutWrapper = styled.div`
 
 export const AboutRow = styled.div`
 	display: grid;
+	margin-top: 80px;
 	grid-auto-comlumns: minmax(auto, 1fr);
 	align-items: center;
 	grid-template-areas: ${({ imgStart }) =>
