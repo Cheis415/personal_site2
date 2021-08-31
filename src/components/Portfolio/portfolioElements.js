@@ -56,9 +56,11 @@ export const PortfolioCard = styled.div`
 	padding: 5px;
 
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+`;
 
+export const CardWrap = styled.div`
 	&:hover {
-		transform: scale(1.2);
+		transform: scale(1.1);
 		transition: all 0.2s ease-in-out;
 	}
 `;
