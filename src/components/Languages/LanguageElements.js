@@ -253,8 +253,28 @@ export const LanguageContainer = styled.div`
 	align-items: center;
 `;
 
+export const TopLine = styled.p`
+	color: #b25fb5;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+
+	// @media screen and (min-width: 1120px) {
+	// 	margin-top: 50px;
+	// 	font-size: 24px;
+	// }
+
+	@media screen and (max-width: 1440px) {
+		font-size: 14px;
+		margin-bottom: 8px;
+	}
+`;
+
 export const LanguageH1 = styled.h1`
-	margin: 24px;
+	margin: 5px 20px 20px 0px;
 	font-size: 48px;
 	font-weight: 600;
 	color: #fff;
@@ -268,7 +288,7 @@ export const LanguageH1 = styled.h1`
 	}
 	@media screen and (max-width: 1440px) {
 		font-size: 40px;
-		margin: 18px;
+		margin: 5px 20px 20px 0px;
 	}
 `;
 export const LanguageTitle = styled.p`

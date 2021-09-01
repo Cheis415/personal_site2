@@ -44,7 +44,7 @@ export const PortfolioWrap = styled.div`
 `;
 
 export const PortfolioCard = styled.div`
-	background: #e8e8e8;
+	background: #cfcfcf;
 	display: flex;
 	flex-direction: column;
 	will-change: transform, opacity;

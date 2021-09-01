@@ -61,7 +61,7 @@ export const TextWrapper = styled.div`
 	padding-bottom: 60px;
 `;
 export const TopLine = styled.p`
-	color: #00dae8;
+	color: #b25fb5;
 	font-size: 16px;
 	line-height: 16px;
 	font-weight: 700;
