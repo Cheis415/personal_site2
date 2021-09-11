@@ -66,8 +66,8 @@ export const CardWrap = styled.div`
 `;
 
 export const ProjectPic = styled.img`
-	height: 140px;
 	width: 100%;
+	height: 150px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 
@@ -75,16 +75,23 @@ export const ProjectPic = styled.img`
 		height: 120px;
 		width: 100%;
 	}
+	@media screen and (min-width: 1600px) {
+		height: 200px;
+		width: 100%;
+	}
 `;
 
 export const PortfolioH1 = styled.h1`
-	font-size: 2.5rem;
+	font-size: 4.5rem;
+	border-bottom: 8px solid black;
+	padding: 5px;
 	color: #000;
 	margin-top: 15px;
 	margin-bottom: 15px;
 
 	@media screen and (max-width: 480px) {
 		font-size: 2rem;
+		border-bottom: 4px solid black;
 		margin-bottom: 16px;
 		margin-top: 16px;
 	}
