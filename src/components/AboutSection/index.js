@@ -40,7 +40,14 @@ const AboutSection = ({
 								<Heading lightText={lightText}>{headline}</Heading>
 								<TextBody darkText={darkText}>{description}</TextBody>
 								<BtnWrap>
-									<Button to="projects" primary="true" dark="false">
+									<Button
+										to="projects"
+										smooth={true}
+										duration={500}
+										spy={true}
+										primary="true"
+										dark="false"
+									>
 										{buttonLabel}
 									</Button>
 								</BtnWrap>
