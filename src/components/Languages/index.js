@@ -114,18 +114,14 @@ const Languages = () => {
 							<TopLine>Languages & frameworks</TopLine>
 							<LanguageH1>What do I know?</LanguageH1>
 							<LanguageP>
-								The first language I learned was Python. I was learning on my
-								own, but then pivoted to JavaScript when I got the opportunity
-								to join Code Tenderloin. There I learned the very basics of
-								vanilla JavaScript, some CSS, and HTML. I started to fall in
-								love with coding even more. From there, I joined Rithm School
-								and got introduced to many libraries and frameworks. I spent a
-								lot of time on Python and JavaScript, with a lot of different
-								libraries and frameworks for each. We did front end projects
-								with JQuery, Jinja, React and Redux. We wrote databases using
-								PostgreSQL, API's using Node.js and servers using Flask. At
-								Rithm School I fell in love with React and used it in the
-								majority of my projects.
+								I went to Rithm School, an imersive fullstack bootcamp,and got
+								introduced to many libraries and frameworks. I spent a lot of
+								time on Python and JavaScript, with a lot of different libraries
+								and frameworks for each. We did front end projects with JQuery,
+								Jinja, React and Redux. We wrote databases using PostgreSQL,
+								API's using Node.js and servers using Flask. At Rithm School I
+								fell in love with React and use it in the majority of my
+								projects.
 							</LanguageP>
 						</Column2>
 					</LanguageRow>
