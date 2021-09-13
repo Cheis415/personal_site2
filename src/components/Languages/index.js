@@ -1,34 +1,33 @@
 import React from 'react';
-
 import {
-	LanguagesContainer,
-	JsIcon,
-	SassIcon,
-	JqueryIcon,
-	FlaskIcon,
-	JestIcon,
-	MysqlIcon,
-	PostgreIcon,
-	GithubIcon,
-	GitIcon,
-	ReactIcon,
-	ReduxIcon,
-	StyledIcon,
-	TsIcon,
-	PythonIcon,
-	HtmlIcon,
-	CssIcon,
-	NodeIcon,
-	JinjaIcon,
-	LanguageWrap,
-	LanguageRow,
-	LanguageTitle,
-	TopLine,
-	LanguageH1,
-	LanguageP,
 	Column1,
 	Column2,
+	CssIcon,
+	FlaskIcon,
+	GithubIcon,
+	GitIcon,
+	HtmlIcon,
+	JestIcon,
+	JinjaIcon,
+	JqueryIcon,
+	JsIcon,
 	LanguageContainer,
+	LanguageH1,
+	LanguageP,
+	LanguageRow,
+	LanguagesContainer,
+	LanguageTitle,
+	LanguageWrap,
+	MysqlIcon,
+	NodeIcon,
+	PostgreIcon,
+	PythonIcon,
+	ReactIcon,
+	ReduxIcon,
+	SassIcon,
+	StyledIcon,
+	TopLine,
+	TsIcon,
 } from './LanguageElements';
 
 const Languages = () => {
@@ -124,13 +123,9 @@ const Languages = () => {
 								lot of time on Python and JavaScript, with a lot of different
 								libraries and frameworks for each. We did front end projects
 								with JQuery, Jinja, React and Redux. We wrote databases using
-								PostgreSQL, API's using Node.js and servers using Flask. While I
-								haven’t created any projects using TypeScript or SASS, I am
-								actively learning those on my own right now. At Rithm School I
-								fell in love with React and used it in the majority of my
-								projects. I created this website using React and styled
-								components. I am very proud of myself for going from knowing
-								nothing to becoming a skilled developer in such a short time.
+								PostgreSQL, API's using Node.js and servers using Flask. At
+								Rithm School I fell in love with React and used it in the
+								majority of my projects.
 							</LanguageP>
 						</Column2>
 					</LanguageRow>

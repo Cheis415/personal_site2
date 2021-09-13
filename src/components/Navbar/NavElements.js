@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
 	background-color: ${({ scrollNav }) =>
@@ -81,6 +81,7 @@ export const ExternalLinks = styled.ul`
 `;
 
 export const LinkA = styled.a`
+	font-size: 20px;
 	padding: 0 1rem;
 	color: #fff;
 

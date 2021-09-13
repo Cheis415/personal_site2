@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
 
 export const SidebarContainer = styled.aside`
 	position: fixed;
@@ -54,6 +54,7 @@ export const ExternalLinkMenu = styled.ul`
 export const LinkA = styled.a`
 	padding: 0 1rem;
 	color: #fff;
+	font-size: 20px;
 	align-self: center;
 
 	&:hover {

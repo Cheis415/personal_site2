@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
+import profilePic from '../../images/DSC00255.jpeg';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElement';
-import profilePic from '../../images/DSC00255.jpeg';
 import {
-	LandingConatiner,
+	ArrowBottom,
+	ArrowForward,
 	LandingBg,
-	VideoBg,
+	LandingBtnWrapper,
+	LandingConatiner,
 	LandingContent,
 	LandingH1,
 	LandingP,
-	LandingBtnWrapper,
-	ArrowForward,
-	ArrowBottom,
 	LandingPic,
 	PicContainer,
+	VideoBg,
 } from './LandingElements';
 
 const LandingSection = () => {
@@ -37,6 +37,9 @@ const LandingSection = () => {
 					<LandingBtnWrapper>
 						<Button
 							to="about"
+							smooth={true}
+							duration={500}
+							spy={true}
 							onMouseEnter={onHover}
 							onMouseLeave={onHover}
 							primary="true"

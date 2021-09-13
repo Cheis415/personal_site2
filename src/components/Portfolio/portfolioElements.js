@@ -66,18 +66,18 @@ export const CardWrap = styled.div`
 `;
 
 export const ProjectPic = styled.img`
-	width: 100%;
+	width: 225px;
 	height: 150px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 
 	@media screen and (max-width: 480px) {
 		height: 120px;
-		width: 100%;
+		width: 200px;
 	}
 	@media screen and (min-width: 1600px) {
 		height: 200px;
-		width: 100%;
+		width: 250px;
 	}
 `;
 
