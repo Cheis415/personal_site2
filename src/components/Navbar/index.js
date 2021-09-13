@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { FaBars, FaRegAddressCard, FaGithub, FaLinkedin } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import { FaBars, FaGithub, FaLinkedin, FaRegAddressCard } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import Resume from '../../images/ChadHeislerJulyResume.pdf';
+import Resume from '../../images/HeislerSeptemberResume.pdf';
 import {
-	Nav,
-	NavLogo,
-	MobileIcon,
-	NavContainer,
-	NavMenu,
-	NavItem,
-	NavLinks,
 	ExternalLinks,
 	LinkA,
+	MobileIcon,
+	Nav,
+	NavContainer,
+	NavItem,
+	NavLinks,
+	NavLogo,
+	NavMenu,
 } from './NavElements';
 
 const Navbar = ({ toggle }) => {

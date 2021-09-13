@@ -5,9 +5,6 @@ export const AboutContainer = styled.div`
 	color: #fff;
 	background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-	@media screen and (max-width: 768px) {
-		padding: 100px 0;
-	}
 	@media screen and (max-width: 500px) {
 		height: 1000px;
 	}
@@ -108,8 +105,8 @@ export const TextBody = styled.p`
 		line-height: 24px;
 	}
 	@media screen and (max-width: 1440px) {
-		font-size: 16px;
-		line-height: 20px;
+		font-size: 20px;
+		line-height: 25px;
 	}
 `;
 

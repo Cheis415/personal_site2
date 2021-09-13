@@ -1,15 +1,15 @@
 import React from 'react';
-import { FaRegAddressCard, FaGithub, FaLinkedin } from 'react-icons/fa';
-import Resume from '../../images/ChadHeislerJulyResume.pdf';
+import { FaGithub, FaLinkedin, FaRegAddressCard } from 'react-icons/fa';
+import Resume from '../../images/HeislerSeptemberResume.pdf';
 import {
-	SidebarContainer,
-	Icon,
 	CloseIcon,
-	SidebarWrapper,
-	SidebarMenu,
-	SidebarLink,
 	ExternalLinkMenu,
+	Icon,
 	LinkA,
+	SidebarContainer,
+	SidebarLink,
+	SidebarMenu,
+	SidebarWrapper,
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
